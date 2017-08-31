@@ -19,7 +19,7 @@ public class Test {
         }
         System.out.println(list);
 
-        Collections.sort(list); // 顺序排列
+        Collections.sort(list); // 顺序排列排列
         System.out.println(list);
 
         Collections.shuffle(list); // 混乱的意思
