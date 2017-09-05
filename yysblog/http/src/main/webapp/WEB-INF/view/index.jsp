@@ -26,7 +26,7 @@
 </shiro:hasPermission>
 
 
-登陆名称
+登陆名称::
 <shiro:principal></shiro:principal>
 
 <shiro:hasRole name="admin">
