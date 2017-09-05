@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yys.common.dao.UserDao">
+
+    <resultMap id="result" type="com.yys.common.entity.User">
+        <id property="userId" column="user_id"/>
+        <result property="userName" column="user_name"/>
+        <result property="password" column="password"/>
+    </resultMap>
+
+    <insert id="saveUser" parameterType="com.yys.common.entity.User" useGeneratedKeys="true" keyProperty="userId">
+        INSERT  INTO  user (user_name
+        <if test="password!=null and password!=''">
+            ,password
+        </if>
+        )
+        VALUES (#{userName}
+        <if test="password!=null and password!=''">
+            ,#{password}
+        </if>
+        )
+    </insert>
+
+    <select id="findUserByUserName" parameterType="java.lang.String" resultMap="result">
+        SELECT  * FROM  user WHERE user_name=#{userName}
+    </select>
+
+</mapper>

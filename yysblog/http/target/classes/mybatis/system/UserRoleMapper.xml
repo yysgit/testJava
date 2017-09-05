@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yys.common.dao.UserRoleDao">
+
+    <resultMap id="result" type="com.yys.common.entity.UserRole">
+        <id property="id" column="id"/>
+        <result property="roleId" column="role_id"/>
+        <result property="userId" column="user_id"/>
+    </resultMap>
+
+    <select id="findRoleIdListByUserId" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+        select
+        role_id AS roleId
+        from user_role
+        where user_id = #{userId}
+    </select>
+</mapper>

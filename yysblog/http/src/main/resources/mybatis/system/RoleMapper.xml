@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yys.common.dao.RoleDao">
+
+
+
+    <select id="findRoleResourceListByRoleId" resultType="java.util.HashMap" parameterType="java.lang.Integer">
+        SELECT
+            e.id AS id,
+            s.resource_url AS url
+        FROM
+            role r
+        LEFT JOIN role_resource e ON r.role_id = e.role_id
+        LEFT JOIN resource s ON e.resource_id = s.resource_id
+        WHERE
+            r.role_id = #{roleId}
+    </select>
+
+</mapper>

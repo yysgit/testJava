@@ -1,0 +1,15 @@
+[INFO ] 15:07:06.621 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 15:07:12.292 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 15:07:12.581 [main] o.a.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+[INFO ] 15:07:13.175 [main] o.a.s.cache.ehcache.EhCacheManager - Cache with name 'com.yys.http.shiro.ShiroDbRealm.authorizationCache' does not yet exist.  Creating now.
+[INFO ] 15:07:13.222 [main] o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [com.yys.http.shiro.ShiroDbRealm.authorizationCache]
+[INFO ] 15:07:28.373 [qtp378227888-27] com.yys.http.shiro.ShiroDbRealm - Shiro开始登录认证
+[INFO ] 15:07:32.999 [qtp378227888-28] com.yys.http.shiro.ShiroDbRealm - Shiro权限认证
+[INFO ] 15:48:19.470 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 15:48:25.083 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 15:48:25.315 [main] o.a.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+[INFO ] 15:48:25.867 [main] o.a.s.cache.ehcache.EhCacheManager - Cache with name 'com.yys.http.shiro.ShiroDbRealm.authorizationCache' does not yet exist.  Creating now.
+[INFO ] 15:48:25.907 [main] o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [com.yys.http.shiro.ShiroDbRealm.authorizationCache]
+[INFO ] 15:48:44.879 [qtp793588415-28] com.yys.http.shiro.ShiroDbRealm - Shiro开始登录认证
+[INFO ] 15:50:33.619 [qtp793588415-25] com.yys.http.shiro.ShiroDbRealm - Shiro权限认证
+[INFO ] 15:55:09.498 [qtp793588415-22] com.yys.http.shiro.ShiroDbRealm - Shiro开始登录认证

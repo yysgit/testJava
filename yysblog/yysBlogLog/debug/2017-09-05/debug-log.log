@@ -1,0 +1,204 @@
+[DEBUG] 15:07:00.299 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[DEBUG] 15:07:06.738 [main] o.m.spring.SqlSessionFactoryBean - Property 'configLocation' not specified, using default MyBatis Configuration
+[DEBUG] 15:07:06.781 [main] org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VFS
+[DEBUG] 15:07:06.782 [main] org.apache.ibatis.io.ResolverUtil - JBoss 6 VFS API is not available in this environment.
+[DEBUG] 15:07:06.784 [main] org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VirtualFile
+[DEBUG] 15:07:06.785 [main] org.apache.ibatis.io.ResolverUtil - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG] 15:07:06.833 [main] org.apache.ibatis.io.ResolverUtil - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG] 15:07:06.834 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.yys.common.*' for aliases
+[DEBUG] 15:07:07.026 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\RoleMapper.xml]'
+[DEBUG] 15:07:07.053 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\UserMapper.xml]'
+[DEBUG] 15:07:07.069 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\UserRoleMapper.xml]'
+[DEBUG] 15:07:12.309 [main] o.m.spring.SqlSessionFactoryBean - Property 'configLocation' not specified, using default MyBatis Configuration
+[DEBUG] 15:07:12.310 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.yys.common.*' for aliases
+[DEBUG] 15:07:12.321 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\RoleMapper.xml]'
+[DEBUG] 15:07:12.344 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\UserMapper.xml]'
+[DEBUG] 15:07:12.357 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\UserRoleMapper.xml]'
+[DEBUG] 15:07:12.579 [main] o.a.s.s.LifecycleBeanPostProcessor - Initializing bean [shiroDbRealm]...
+[DEBUG] 15:07:12.580 [main] o.a.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+[DEBUG] 15:07:12.629 [main] o.a.s.s.LifecycleBeanPostProcessor - Initializing bean [shiroEhcacheManager]...
+[DEBUG] 15:07:12.630 [main] o.a.s.cache.ehcache.EhCacheManager - cacheManager property not set.  Constructing CacheManager instance... 
+[DEBUG] 15:07:12.641 [main] org.apache.shiro.io.ResourceUtils - Opening resource from class path [ehcache-shiro.xml]
+[DEBUG] 15:07:12.650 [main] n.s.e.config.ConfigurationFactory - Configuring ehcache from InputStream
+[DEBUG] 15:07:12.689 [main] net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+[DEBUG] 15:07:12.700 [main] net.sf.ehcache.CacheManager - No disk store path defined. Skipping disk store path conflict test.
+[DEBUG] 15:07:12.700 [main] n.s.e.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+[DEBUG] 15:07:13.090 [main] net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+[DEBUG] 15:07:13.090 [main] net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+[DEBUG] 15:07:13.091 [main] n.s.e.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+[DEBUG] 15:07:13.093 [main] o.a.s.cache.ehcache.EhCacheManager - implicit cacheManager created successfully.
+[DEBUG] 15:07:13.174 [main] o.a.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+[DEBUG] 15:07:13.175 [main] o.a.shiro.realm.AuthorizingRealm - CacheManager [org.apache.shiro.cache.ehcache.EhCacheManager@b56d8a7] has been configured.  Building authorization cache named [com.yys.http.shiro.ShiroDbRealm.authorizationCache]
+[DEBUG] 15:07:13.214 [main] net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.NotifyingMemoryStore for com.yys.http.shiro.ShiroDbRealm.authorizationCache
+[DEBUG] 15:07:13.222 [main] net.sf.ehcache.Cache - Initialised cache: com.yys.http.shiro.ShiroDbRealm.authorizationCache
+[DEBUG] 15:07:13.222 [main] n.s.e.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'com.yys.http.shiro.ShiroDbRealm.authorizationCache'.
+[DEBUG] 15:07:13.429 [main] o.a.s.s.web.ShiroFilterFactoryBean - Creating Shiro Filter instance.
+[DEBUG] 15:07:13.441 [main] o.a.s.w.f.m.DefaultFilterChainManager - Creating chain [/index] from String definition [anon]
+[DEBUG] 15:07:13.442 [main] o.a.s.w.f.m.DefaultFilterChainManager - Attempting to apply path [/index] to filter [anon] with config [null]
+[DEBUG] 15:07:13.443 [main] o.a.s.w.f.m.DefaultFilterChainManager - Creating chain [/login] from String definition [anon]
+[DEBUG] 15:07:13.446 [main] o.a.s.w.f.m.DefaultFilterChainManager - Attempting to apply path [/login] to filter [anon] with config [null]
+[DEBUG] 15:07:13.446 [main] o.a.s.w.f.m.DefaultFilterChainManager - Creating chain [/**] from String definition [authc]
+[DEBUG] 15:07:13.446 [main] o.a.s.w.f.m.DefaultFilterChainManager - Attempting to apply path [/**] to filter [authc] with config [null]
+[DEBUG] 15:07:27.826 [qtp378227888-27] o.a.shiro.web.servlet.SimpleCookie - Found 'rememberMe' cookie value [PUpuxCBn6LRiE5bxaEhZ8a1VbhvK3i/NBidoEXtEI0t2HWrs7/bhiW5nGV6UWlre1AypZIuSBdSbNT47vqw5x+Df4wXWsaoRxEiBjP52Km8bsJRoz9tr3SyuArC4ElhN9sgTaYcAjlD3K94H0DXS2u6bolOuW4I81QYuEYRtlboPzx5L6RfcwiEh2XTW5hQeuRynBQqKWk0fwCuKF/0LXMprNhMJzUxDwBBTAH0IF3CXt5ZtaUcRV4EDN7T93YmyASA4VFUvQ3P3rp9WR9YBfKvX8wuGX1sPPOmAbHT0aTSZT/VNLBg8caqs79DxpL6MHW6xXsoRmwJhkiqoMJftgfyJEmQ43qx2jnFBh9lbZAC+0Pq1297PvBFecElMaHLy9H5f1QVGrxdY+y+Ipqjx5tXrFf7GSz2Xgks7VuByhGKD3iepFcvD1vjFblvh9XGCTdCfNwxpHHAva4xgB7qm0xe6ZFMK05t0ZaUiNhSBkdZL6Pitf2jIBXClX7XQZ7IgGiZD1HPzNnBONKKHjZpqW3jOIN1NYlWzg6CkZJbocKbNGzilWnnF8qQOgRc4iKJyjMLgawqq4k8EOL9hhbJwLsRq247GRS8zJs7lV1k3lFqajWcF7iFWpZngn8zEFLDif3c/I0YaEFsBJjQ589QyD70UAqyRA66vq9Q0irffsB4Nw5SD/JtWkR864gMeBJtcklktDRxWztdsfWVQ2zrXXCMk310Z3kG2BbQfnaOBUdKbxcf9gmubXg5/BkArLLV/lly5uZfSNtikYenPZZXW8QeS7AgfQMP1a0fQmiQcarowsdZj/gBOSc8DwbKQv8DHrcJEjtW8KNW8TFspRufzeCWP6QqFAlqClMjJYbYmBV5AWX9IHoasZGacNj09iL+q]
+[DEBUG] 15:07:28.277 [qtp378227888-27] o.a.shiro.mgt.DefaultSecurityManager - Found remembered PrincipalCollection.  Adding to the context to be used for subject construction by the SubjectFactory.
+[DEBUG] 15:07:28.482 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+[DEBUG] 15:07:28.488 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d2c03af]
+[DEBUG] 15:07:28.497 [qtp378227888-27] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@32f5a0a2] will be managed by Spring
+[DEBUG] 15:07:28.509 [qtp378227888-27] c.y.c.dao.UserDao.findUserByUserName - ==>  Preparing: SELECT * FROM user WHERE user_name=? 
+[DEBUG] 15:07:28.557 [qtp378227888-27] c.y.c.dao.UserDao.findUserByUserName - ==> Parameters: admin(String)
+[DEBUG] 15:07:28.599 [qtp378227888-27] c.y.c.dao.UserDao.findUserByUserName - <==      Total: 1
+[DEBUG] 15:07:28.600 [qtp378227888-27] c.a.druid.pool.PreparedStatementPool - {conn-10001, pstmt-20000} enter cache
+[DEBUG] 15:07:28.600 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d2c03af]
+[DEBUG] 15:07:28.600 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d2c03af]
+[DEBUG] 15:07:28.601 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d2c03af]
+[DEBUG] 15:07:28.601 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d2c03af]
+[DEBUG] 15:07:28.710 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+[DEBUG] 15:07:28.710 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1869708b]
+[DEBUG] 15:07:28.710 [qtp378227888-27] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@32f5a0a2] will be managed by Spring
+[DEBUG] 15:07:28.710 [qtp378227888-27] c.y.c.d.U.findRoleIdListByUserId - ==>  Preparing: select role_id AS roleId from user_role where user_id = ? 
+[DEBUG] 15:07:28.712 [qtp378227888-27] c.y.c.d.U.findRoleIdListByUserId - ==> Parameters: 1(Integer)
+[DEBUG] 15:07:28.730 [qtp378227888-27] c.y.c.d.U.findRoleIdListByUserId - <==      Total: 1
+[DEBUG] 15:07:28.731 [qtp378227888-27] c.a.druid.pool.PreparedStatementPool - {conn-10001, pstmt-20001} enter cache
+[DEBUG] 15:07:28.731 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1869708b]
+[DEBUG] 15:07:28.731 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1869708b]
+[DEBUG] 15:07:28.731 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1869708b]
+[DEBUG] 15:07:28.731 [qtp378227888-27] org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1869708b]
+[DEBUG] 15:07:28.786 [qtp378227888-27] o.a.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [admin] from doGetAuthenticationInfo
+[DEBUG] 15:07:28.786 [qtp378227888-27] o.a.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [admin].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=true].
+[DEBUG] 15:07:28.787 [qtp378227888-27] o.a.s.a.c.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [[C]
+[DEBUG] 15:07:28.787 [qtp378227888-27] o.a.s.a.c.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+[DEBUG] 15:07:28.787 [qtp378227888-27] o.a.s.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=true].  Returned account [admin]
+[DEBUG] 15:07:28.787 [qtp378227888-27] o.a.s.s.s.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+[DEBUG] 15:07:28.787 [qtp378227888-27] o.a.shiro.mgt.DefaultSecurityManager - Context already contains a session.  Returning.
+[DEBUG] 15:07:28.787 [qtp378227888-27] o.a.s.s.s.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+[DEBUG] 15:07:28.788 [qtp378227888-27] o.a.shiro.web.servlet.SimpleCookie - Added HttpServletResponse Cookie [rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 04-Sep-2017 07:07:28 GMT]
+[DEBUG] 15:07:28.792 [qtp378227888-27] o.a.shiro.web.servlet.SimpleCookie - Added HttpServletResponse Cookie [rememberMe=1/CorN/oIpbKwlFERST5CCr0r74wv3LdbgksIP+ehHO+5ysoDsv6Lbr4Hu4wP3xqC1hu8EW9HUbvyWbeTGG6Z4bYPK2ie4SKHl/DuD1UGKmcYmKYcYONkn1fcKc4tnaiqAHJVhI4EuMWCi0OLNbyv6oSqUXQvE0KhdCIcCmyZipY90Zd5vxJa2pqP9qzPyyjIlpM6XphZcke8q99mWmqnXa6AMNzUWLLuJjNmWWt77pG3Qgm4C1PnuXxmHsPumZDbbIhj7KM7hc2Y+0U0A8TIvnJh4peUh7clcsFvlEPvx+jAuhz0E6iOGjJOWpp0yRRaas6YeJjuL3SZQGeEkluI/GhO+/d0bvvDuAVc7dzP5C19JSE1sxI7anvE8huv69W5FE9xfBytfPonwXi4fWe0mhXrhsIBiHUgkKOnNpG1fxC/SvoayBZ/tqk2sUZm6hoA+3W83pTUI5k6jkqSi/loOqUcYu3PIBzDqGOo0ArtvNbAcm6T98iqSc8W1zYmvR9hYAKr/4BlS2UNm7QZ8jSM6CL0DSln8MCkAuMIMaLQQeIljlJNxHuj2WsIcmu9c5iPG5JuHotRiiMwHCrC5+DUKTwkKQIzMwmnON6DYlIZ9DZZh1J343Z5U4d/4Yz6w3cITMKpLae/snwXVcHk4Dl88m4of8oGTIfcfcML6jgNEMdGyfoKyKibNPnHJhwhLoJh8NYD5TrfbAfTd9WF85AzmObbVUkmt2L5CJMBqDAv7AWywGnIhNtXYl2aIF9RqlnPFBI1A0+/vfo4wekD0f5Ez/er6mgl0PCWlAna53I4hwwR6N/y+K6/Ac5UTB8xaKG7jmZOfXDG7ByZsvE2UzBEpz4SdISn1hSJUWs6ikupzgdUCEo+MBpt4vfpbVPaZp5; Path=/; Max-Age=604800; Expires=Tue, 12-Sep-2017 07:07:28 GMT; HttpOnly]
+[DEBUG] 15:07:33.040 [qtp378227888-28] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+[DEBUG] 15:07:33.040 [qtp378227888-28] org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@670f86e8]
+[DEBUG] 15:07:33.040 [qtp378227888-28] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@32f5a0a2] will be managed by Spring
+[DEBUG] 15:07:33.040 [qtp378227888-28] c.y.c.d.R.findRoleResourceListByRoleId - ==>  Preparing: SELECT e.id AS id, s.resource_url AS url FROM role r LEFT JOIN role_resource e ON r.role_id = e.role_id LEFT JOIN resource s ON e.resource_id = s.resource_id WHERE r.role_id = ? 
+[DEBUG] 15:07:33.042 [qtp378227888-28] c.y.c.d.R.findRoleResourceListByRoleId - ==> Parameters: 1(Integer)
+[DEBUG] 15:07:33.061 [qtp378227888-28] c.y.c.d.R.findRoleResourceListByRoleId - <==      Total: 3
+[DEBUG] 15:07:33.061 [qtp378227888-28] c.a.druid.pool.PreparedStatementPool - {conn-10001, pstmt-20002} enter cache
+[DEBUG] 15:07:33.062 [qtp378227888-28] org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@670f86e8]
+[DEBUG] 15:07:33.062 [qtp378227888-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@670f86e8]
+[DEBUG] 15:07:33.062 [qtp378227888-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@670f86e8]
+[DEBUG] 15:07:33.062 [qtp378227888-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@670f86e8]
+[DEBUG] 15:48:13.222 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[DEBUG] 15:48:19.608 [main] o.m.spring.SqlSessionFactoryBean - Property 'configLocation' not specified, using default MyBatis Configuration
+[DEBUG] 15:48:19.643 [main] org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VFS
+[DEBUG] 15:48:19.644 [main] org.apache.ibatis.io.ResolverUtil - JBoss 6 VFS API is not available in this environment.
+[DEBUG] 15:48:19.646 [main] org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VirtualFile
+[DEBUG] 15:48:19.647 [main] org.apache.ibatis.io.ResolverUtil - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG] 15:48:19.647 [main] org.apache.ibatis.io.ResolverUtil - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG] 15:48:19.648 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.yys.common.*' for aliases
+[DEBUG] 15:48:19.820 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\RoleMapper.xml]'
+[DEBUG] 15:48:19.857 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\UserMapper.xml]'
+[DEBUG] 15:48:19.878 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\UserRoleMapper.xml]'
+[DEBUG] 15:48:25.099 [main] o.m.spring.SqlSessionFactoryBean - Property 'configLocation' not specified, using default MyBatis Configuration
+[DEBUG] 15:48:25.100 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.yys.common.*' for aliases
+[DEBUG] 15:48:25.111 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\RoleMapper.xml]'
+[DEBUG] 15:48:25.134 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\UserMapper.xml]'
+[DEBUG] 15:48:25.143 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\yyGit\yysblog\http\target\classes\mybatis\system\UserRoleMapper.xml]'
+[DEBUG] 15:48:25.313 [main] o.a.s.s.LifecycleBeanPostProcessor - Initializing bean [shiroDbRealm]...
+[DEBUG] 15:48:25.315 [main] o.a.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+[DEBUG] 15:48:25.347 [main] o.a.s.s.LifecycleBeanPostProcessor - Initializing bean [shiroEhcacheManager]...
+[DEBUG] 15:48:25.348 [main] o.a.s.cache.ehcache.EhCacheManager - cacheManager property not set.  Constructing CacheManager instance... 
+[DEBUG] 15:48:25.356 [main] org.apache.shiro.io.ResourceUtils - Opening resource from class path [ehcache-shiro.xml]
+[DEBUG] 15:48:25.363 [main] n.s.e.config.ConfigurationFactory - Configuring ehcache from InputStream
+[DEBUG] 15:48:25.401 [main] net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+[DEBUG] 15:48:25.413 [main] net.sf.ehcache.CacheManager - No disk store path defined. Skipping disk store path conflict test.
+[DEBUG] 15:48:25.413 [main] n.s.e.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+[DEBUG] 15:48:25.772 [main] net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+[DEBUG] 15:48:25.773 [main] net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+[DEBUG] 15:48:25.774 [main] n.s.e.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+[DEBUG] 15:48:25.777 [main] o.a.s.cache.ehcache.EhCacheManager - implicit cacheManager created successfully.
+[DEBUG] 15:48:25.867 [main] o.a.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+[DEBUG] 15:48:25.867 [main] o.a.shiro.realm.AuthorizingRealm - CacheManager [org.apache.shiro.cache.ehcache.EhCacheManager@dbcf7c3] has been configured.  Building authorization cache named [com.yys.http.shiro.ShiroDbRealm.authorizationCache]
+[DEBUG] 15:48:25.901 [main] net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.NotifyingMemoryStore for com.yys.http.shiro.ShiroDbRealm.authorizationCache
+[DEBUG] 15:48:25.906 [main] net.sf.ehcache.Cache - Initialised cache: com.yys.http.shiro.ShiroDbRealm.authorizationCache
+[DEBUG] 15:48:25.907 [main] n.s.e.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'com.yys.http.shiro.ShiroDbRealm.authorizationCache'.
+[DEBUG] 15:48:26.063 [main] o.a.s.s.web.ShiroFilterFactoryBean - Creating Shiro Filter instance.
+[DEBUG] 15:48:26.075 [main] o.a.s.w.f.m.DefaultFilterChainManager - Creating chain [/index] from String definition [anon]
+[DEBUG] 15:48:26.075 [main] o.a.s.w.f.m.DefaultFilterChainManager - Attempting to apply path [/index] to filter [anon] with config [null]
+[DEBUG] 15:48:26.076 [main] o.a.s.w.f.m.DefaultFilterChainManager - Creating chain [/login] from String definition [anon]
+[DEBUG] 15:48:26.079 [main] o.a.s.w.f.m.DefaultFilterChainManager - Attempting to apply path [/login] to filter [anon] with config [null]
+[DEBUG] 15:48:26.080 [main] o.a.s.w.f.m.DefaultFilterChainManager - Creating chain [/**] from String definition [authc]
+[DEBUG] 15:48:26.081 [main] o.a.s.w.f.m.DefaultFilterChainManager - Attempting to apply path [/**] to filter [authc] with config [null]
+[DEBUG] 15:48:37.562 [qtp793588415-23] o.a.shiro.web.servlet.SimpleCookie - Found 'rememberMe' cookie value [1/CorN/oIpbKwlFERST5CCr0r74wv3LdbgksIP+ehHO+5ysoDsv6Lbr4Hu4wP3xqC1hu8EW9HUbvyWbeTGG6Z4bYPK2ie4SKHl/DuD1UGKmcYmKYcYONkn1fcKc4tnaiqAHJVhI4EuMWCi0OLNbyv6oSqUXQvE0KhdCIcCmyZipY90Zd5vxJa2pqP9qzPyyjIlpM6XphZcke8q99mWmqnXa6AMNzUWLLuJjNmWWt77pG3Qgm4C1PnuXxmHsPumZDbbIhj7KM7hc2Y+0U0A8TIvnJh4peUh7clcsFvlEPvx+jAuhz0E6iOGjJOWpp0yRRaas6YeJjuL3SZQGeEkluI/GhO+/d0bvvDuAVc7dzP5C19JSE1sxI7anvE8huv69W5FE9xfBytfPonwXi4fWe0mhXrhsIBiHUgkKOnNpG1fxC/SvoayBZ/tqk2sUZm6hoA+3W83pTUI5k6jkqSi/loOqUcYu3PIBzDqGOo0ArtvNbAcm6T98iqSc8W1zYmvR9hYAKr/4BlS2UNm7QZ8jSM6CL0DSln8MCkAuMIMaLQQeIljlJNxHuj2WsIcmu9c5iPG5JuHotRiiMwHCrC5+DUKTwkKQIzMwmnON6DYlIZ9DZZh1J343Z5U4d/4Yz6w3cITMKpLae/snwXVcHk4Dl88m4of8oGTIfcfcML6jgNEMdGyfoKyKibNPnHJhwhLoJh8NYD5TrfbAfTd9WF85AzmObbVUkmt2L5CJMBqDAv7AWywGnIhNtXYl2aIF9RqlnPFBI1A0+/vfo4wekD0f5Ez/er6mgl0PCWlAna53I4hwwR6N/y+K6/Ac5UTB8xaKG7jmZOfXDG7ByZsvE2UzBEpz4SdISn1hSJUWs6ikupzgdUCEo+MBpt4vfpbVPaZp5]
+[DEBUG] 15:48:37.913 [qtp793588415-23] o.a.shiro.mgt.DefaultSecurityManager - Found remembered PrincipalCollection.  Adding to the context to be used for subject construction by the SubjectFactory.
+[DEBUG] 15:48:48.709 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+[DEBUG] 15:48:48.738 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64d926f4]
+[DEBUG] 15:48:48.771 [qtp793588415-28] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6174dbb7] will be managed by Spring
+[DEBUG] 15:48:48.831 [qtp793588415-28] c.y.c.dao.UserDao.findUserByUserName - ==>  Preparing: SELECT * FROM user WHERE user_name=? 
+[DEBUG] 15:48:49.183 [qtp793588415-28] c.y.c.dao.UserDao.findUserByUserName - ==> Parameters: admin(String)
+[DEBUG] 15:48:49.427 [qtp793588415-28] c.y.c.dao.UserDao.findUserByUserName - <==      Total: 1
+[DEBUG] 15:48:49.429 [qtp793588415-28] c.a.druid.pool.PreparedStatementPool - {conn-10001, pstmt-20000} enter cache
+[DEBUG] 15:48:49.433 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64d926f4]
+[DEBUG] 15:48:49.434 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64d926f4]
+[DEBUG] 15:48:49.435 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64d926f4]
+[DEBUG] 15:48:49.435 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64d926f4]
+[DEBUG] 15:49:24.518 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+[DEBUG] 15:49:24.519 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d529359]
+[DEBUG] 15:49:24.520 [qtp793588415-28] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6174dbb7] will be managed by Spring
+[DEBUG] 15:49:24.521 [qtp793588415-28] c.y.c.d.U.findRoleIdListByUserId - ==>  Preparing: select role_id AS roleId from user_role where user_id = ? 
+[DEBUG] 15:49:24.525 [qtp793588415-28] c.y.c.d.U.findRoleIdListByUserId - ==> Parameters: 1(Integer)
+[DEBUG] 15:49:24.537 [qtp793588415-28] c.y.c.d.U.findRoleIdListByUserId - <==      Total: 1
+[DEBUG] 15:49:24.538 [qtp793588415-28] c.a.druid.pool.PreparedStatementPool - {conn-10001, pstmt-20001} enter cache
+[DEBUG] 15:49:24.539 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d529359]
+[DEBUG] 15:49:24.539 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d529359]
+[DEBUG] 15:49:24.540 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d529359]
+[DEBUG] 15:49:24.540 [qtp793588415-28] org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d529359]
+[DEBUG] 15:50:29.364 [qtp793588415-28] o.a.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [admin] from doGetAuthenticationInfo
+[DEBUG] 15:50:29.366 [qtp793588415-28] o.a.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [admin].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=true].
+[DEBUG] 15:50:29.368 [qtp793588415-28] o.a.s.a.c.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [[C]
+[DEBUG] 15:50:29.368 [qtp793588415-28] o.a.s.a.c.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+[DEBUG] 15:50:29.369 [qtp793588415-28] o.a.s.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=true].  Returned account [admin]
+[DEBUG] 15:50:29.369 [qtp793588415-28] o.a.s.s.s.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+[DEBUG] 15:50:29.369 [qtp793588415-28] o.a.shiro.mgt.DefaultSecurityManager - Context already contains a session.  Returning.
+[DEBUG] 15:50:29.369 [qtp793588415-28] o.a.s.s.s.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+[DEBUG] 15:50:29.370 [qtp793588415-28] o.a.shiro.web.servlet.SimpleCookie - Added HttpServletResponse Cookie [rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 04-Sep-2017 07:50:29 GMT]
+[DEBUG] 15:50:29.378 [qtp793588415-28] o.a.shiro.web.servlet.SimpleCookie - Added HttpServletResponse Cookie [rememberMe=TVJcNWDVcU6rBPP4UPsb6GbE9n/lijyBCsi2gatz095SP8ilICJYdcZVxe5Z1VCDN6pp6NPfmZGFngWDBgEpZwU74Bnq1cl3n30BavV9Vki9W7Bhj3kIQU/8SYoQqDR3eQX7fbWJ1+zvB9fcV8c4c/pwz49FLe8m2BIh1Dj5dG/XChmF5AL6FE0V7qyfPxVRrliQqsjvYkFyeScmpaNGb1FSrqAUBjH1bk0XJWz1399p5zwXD29rCqjk2lQgId/eGCAvKcmwMJqrjOUwj/y39HPIe9361TCvuJxDNrbFDiKfIyDc/mwePkFkQrXR4bxjO3VAumXsV30UfFKD80RKUfs9dqZEg4rQ2/WZ777RJDfvJlR46teHCMVo5OjmFw8qSolBQ0/6luBwmyn7tAavnuhIHgtfIUdG+tibc6TcOx1buo2keWOshlAIO9ra8nFRNKMOw8G+VH+M/fZ3WFrDwhbsc/+UOF1paHp39K9qd5bsgUWcGeRNTU50mnBiryBQDRhIv7maIyFrntRflQWrD/VWeZQ6Q0zPXsBVCmieIBcGjyrettRbU37dGlHCEejun8y/mFjY71VmPj+im7YIWxu7PYeTx0hTOQAi1AzmUig03HsfU72QTi0HyEnP/lvkLKfes8SsI+IXrxcZFEtUQzwMxCemYhMOmRm5KbtIr0FeOS9YXd+6yX5vh2/F/FgQhXjwDGg6JjFIZ32ZZxbkzNHQ8TnorUa9gRllkgLgZRN1NbnmfpoEAOBFCpAi5gUB5aL7xJGyVkkPTEir200pO/ckGMATE2n9FKZVwC95SJSPPZvoqkEbo+uQTJRp63tZWHmLZlnz4KEiiCLPsB6+wWeYCfOPBYyd6ibkAC9fqSxin/+SjpQnUuyGsPoFz8MT; Path=/; Max-Age=604800; Expires=Tue, 12-Sep-2017 07:50:29 GMT; HttpOnly]
+[DEBUG] 15:50:36.920 [qtp793588415-25] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+[DEBUG] 15:50:36.920 [qtp793588415-25] org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24d9ee80]
+[DEBUG] 15:50:36.921 [qtp793588415-25] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6174dbb7] will be managed by Spring
+[DEBUG] 15:50:36.923 [qtp793588415-25] c.y.c.d.R.findRoleResourceListByRoleId - ==>  Preparing: SELECT e.id AS id, s.resource_url AS url FROM role r LEFT JOIN role_resource e ON r.role_id = e.role_id LEFT JOIN resource s ON e.resource_id = s.resource_id WHERE r.role_id = ? 
+[DEBUG] 15:50:36.926 [qtp793588415-25] c.y.c.d.R.findRoleResourceListByRoleId - ==> Parameters: 1(Integer)
+[DEBUG] 15:50:36.939 [qtp793588415-25] c.y.c.d.R.findRoleResourceListByRoleId - <==      Total: 3
+[DEBUG] 15:50:36.941 [qtp793588415-25] c.a.druid.pool.PreparedStatementPool - {conn-10001, pstmt-20002} enter cache
+[DEBUG] 15:50:36.941 [qtp793588415-25] org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24d9ee80]
+[DEBUG] 15:50:36.942 [qtp793588415-25] org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24d9ee80]
+[DEBUG] 15:50:36.943 [qtp793588415-25] org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24d9ee80]
+[DEBUG] 15:50:36.943 [qtp793588415-25] org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24d9ee80]
+[DEBUG] 15:53:07.936 [qtp793588415-25] o.a.shiro.web.servlet.SimpleCookie - Added HttpServletResponse Cookie [rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 04-Sep-2017 07:53:07 GMT]
+[DEBUG] 15:53:07.936 [qtp793588415-25] o.a.shiro.mgt.DefaultSecurityManager - Logging out subject with primary principal admin
+[DEBUG] 15:55:13.335 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+[DEBUG] 15:55:13.335 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e435ee5]
+[DEBUG] 15:55:13.335 [qtp793588415-22] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6174dbb7] will be managed by Spring
+[DEBUG] 15:55:13.335 [qtp793588415-22] c.y.c.dao.UserDao.findUserByUserName - ==>  Preparing: SELECT * FROM user WHERE user_name=? 
+[DEBUG] 15:55:13.336 [qtp793588415-22] c.y.c.dao.UserDao.findUserByUserName - ==> Parameters: admin(String)
+[DEBUG] 15:55:13.355 [qtp793588415-22] c.y.c.dao.UserDao.findUserByUserName - <==      Total: 1
+[DEBUG] 15:55:13.356 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e435ee5]
+[DEBUG] 15:55:13.356 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e435ee5]
+[DEBUG] 15:55:13.356 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e435ee5]
+[DEBUG] 15:55:13.356 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e435ee5]
+[DEBUG] 15:55:15.546 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+[DEBUG] 15:55:15.546 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74ed9fad]
+[DEBUG] 15:55:15.546 [qtp793588415-22] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6174dbb7] will be managed by Spring
+[DEBUG] 15:55:15.546 [qtp793588415-22] c.y.c.d.U.findRoleIdListByUserId - ==>  Preparing: select role_id AS roleId from user_role where user_id = ? 
+[DEBUG] 15:55:15.547 [qtp793588415-22] c.y.c.d.U.findRoleIdListByUserId - ==> Parameters: 1(Integer)
+[DEBUG] 15:55:15.566 [qtp793588415-22] c.y.c.d.U.findRoleIdListByUserId - <==      Total: 1
+[DEBUG] 15:55:15.566 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74ed9fad]
+[DEBUG] 15:55:15.566 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74ed9fad]
+[DEBUG] 15:55:15.567 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74ed9fad]
+[DEBUG] 15:55:15.567 [qtp793588415-22] org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74ed9fad]
+[DEBUG] 15:55:15.626 [qtp793588415-22] o.a.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [admin] from doGetAuthenticationInfo
+[DEBUG] 15:55:15.626 [qtp793588415-22] o.a.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [admin].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=true].
+[DEBUG] 15:55:15.626 [qtp793588415-22] o.a.s.a.c.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [[C]
+[DEBUG] 15:55:15.626 [qtp793588415-22] o.a.s.a.c.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+[DEBUG] 15:55:15.626 [qtp793588415-22] o.a.s.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=true].  Returned account [admin]
+[DEBUG] 15:55:15.626 [qtp793588415-22] o.a.s.s.s.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+[DEBUG] 15:55:15.626 [qtp793588415-22] o.a.shiro.mgt.DefaultSecurityManager - Context already contains a session.  Returning.
+[DEBUG] 15:55:15.626 [qtp793588415-22] o.a.s.s.s.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+[DEBUG] 15:55:15.628 [qtp793588415-22] o.a.shiro.web.servlet.SimpleCookie - Added HttpServletResponse Cookie [rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 04-Sep-2017 07:55:15 GMT]
+[DEBUG] 15:55:15.630 [qtp793588415-22] o.a.shiro.web.servlet.SimpleCookie - Added HttpServletResponse Cookie [rememberMe=7pX9q5r5nU2PT5X9sFxhDy7NbVqxIe0SoDYQOVDG8ndLA2VELcCQI5IpospsBE/wgV7XnJD/0QtoFEB+Cli5naOW0L0z2MshrqT5gWZxX1n3VT0I0UdOlTiqQeljQWnvDNFy6z932BJSC3I1efjGkx9+IO42o0T89bRGL+dgxrFKZFerCppJtfVrgaJETxjsJ/ADL6rWDOhPuofJ+bufbbY7UNps5dmC3DGjU+t4s7OQ/6JO5F8HJ6XFNMyH/Bf2p/DAFQxk8LHpoeCwyEbOgES+nrI+kqVITh+7UMZc+6tFYZzgwz9SgB2Hl/L9X6Idba9zeT/X8t8ipp9wro1l8WzvL5nRwz18GPWXfIUF3V+9dnBTshYK3EPj9irEQ7TiiGzI/eOF9wwnr0YjB10A3Ue1fILaTzhV69rddLK/VyRo+lDTw1KNDxfPUbn3xbsOMlUqRi8kayv120rdVadTTkA8mZIAXx4zT4cdUirztqoFF8zZhqMAng+UiAxS1Xhj/uGa0Igyol4p2SPRjec7FNlOQQfynKcgdDtVqZaKlItg4udpGtqLx5TQ5BaL7VcjK7Qgab3hnnBB7YHMTFyh1tEt+FzpERRDWUuGs/qi+Zi20IEWRb+MrmsPaKdIshKZOm4UZUcI04TiNua97OcUdOXala85+32BhzoPbRwdAqXhqXvNYv6QEuvmzlvM2C7vXSC1d5hNtH5t8DRVY5FijvnWdQh+b7LdqJT01R8Kpnxw/Qkj6EEY3g50WJPHaHmzkp1DpvT+B6DehBspEr1AN6NGzxP4wwTpJWX+c8meXZx77gUyyNxUzMgy52o6Dkn6RAJME4dZ3c0kN5aNVcdZAUEBzAWUxVe8Yo3cI6LD2TCVCgGaxKI/vpivxfttyqe6; Path=/; Max-Age=604800; Expires=Tue, 12-Sep-2017 07:55:15 GMT; HttpOnly]
